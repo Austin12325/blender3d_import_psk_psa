@@ -44,9 +44,10 @@ Github: https://github.com/Befzz/blender3d_import_psk_psa
 """
 
 """
-Version': '2.8.0' edited by floxay
-- Vertex normals import (VTXNORMS chunk)
-        (requires custom UEViewer build /at the moment/)
+Version': '2.8.1' edited by Austin_#4346
+- Stores the filepath of the imported model in the scene
+        
+
 """
 
 """
@@ -76,7 +77,7 @@ if "bpy" in locals():
 bl_info = {
     "name": "Import Unreal Skeleton Mesh (.psk)/Animation Set (.psa) (280)",
     "author": "Darknet, flufy3d, camg188, befzz, matyalatte",
-    "version": (2, 8, 0),
+    "version": (2, 8, 1),
     "blender": (2, 80, 0),
     "location": "File > Import > Skeleton Mesh (.psk)/Animation Set (.psa) OR View3D > Tool Shelf (key T) > Misc. tab",
     "description": "Import Skeleton Mesh / Animation Data",
